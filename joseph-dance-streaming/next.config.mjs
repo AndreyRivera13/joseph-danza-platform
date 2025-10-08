@@ -4,7 +4,8 @@ const nextConfig = {
   },
   images: {
     remotePatterns: [
-      { protocol: 'https', hostname: 'image.mux.com' }
+      { protocol: 'https', hostname: 'image.mux.com' },
+      { protocol: 'https', hostname: 'picsum.photos' }
     ]
   }
 };
